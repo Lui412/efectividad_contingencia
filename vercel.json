@@ -1,0 +1,12 @@
+
+{
+  "version": 2,
+  "name": "efectividad-ante-la-contingencia",
+  "builds": [{ "src": "index.js", "use": "@now/node-server" }],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/index.js"
+    }
+  ]
+}
